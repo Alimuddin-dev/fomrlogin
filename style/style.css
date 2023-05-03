@@ -78,8 +78,18 @@ form button:hover {
   border-end-start-radius: 50%;
 }
 .media-sosial {
+  text-decoration: none;
+
   padding: 30px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  transition: 0.9s ease-in-out;
+}
+.media-sosial a {
+  color: #000;
+  text-decoration: none;
+}
+.media-sosial a:hover {
+  color: #fff;
 }
